@@ -29,11 +29,11 @@ n=n+1;
 else
 c=0;
 }
-printf("\n Data After Stuffing:\t");
-printf("\t 011111110 \t");
+printf("\n Data After Stuffing:");
+printf("011111110 \t");
 for(i=0;i<n;i++)
 {
-printf("\n %d",a[i]) ;
+printf("%d",a[i]) ;
 }
 printf("\t011111110");
 getch();
