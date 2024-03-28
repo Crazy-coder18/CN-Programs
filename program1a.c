@@ -1,11 +1,10 @@
-
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
 int a[15];
 int i,j,k,n,c=0,pos=0;
-printf("\n enter the no of bits");
+printf("\n Enter the no of Bits:\t");
 scanf("%d",&n);
 for(i=0;i<n;i++)
 scanf("%d",&a[i]);
@@ -30,11 +29,11 @@ n=n+1;
 else
 c=0;
 }
-printf("\n data after stuffing");
-printf("011111110\t");
+printf("\n Data After Stuffing:\t");
+printf("\t 011111110 \t");
 for(i=0;i<n;i++)
 {
-printf("%d",a[i]) ;
+printf("\n %d",a[i]) ;
 }
 printf("\t011111110");
 getch();
